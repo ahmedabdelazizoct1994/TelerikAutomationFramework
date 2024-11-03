@@ -42,10 +42,15 @@ Testng.xml
   IDE: IntelliJ IDEA (Recommended)
 
 5-Setting Up the Project
-Clone the repository to your local machine.
-Open the project in your IDE (e.g., IntelliJ ).
-Navigate to the config.properties file under src/main/resources and configure the following properties:
-Running Tests Using TestNG
-Navigate to testng.xml file to run.
-Check reports
-BR
+*Clone the repository to your local machine.
+**Open the project in your IDE (e.g., IntelliJ ).
+***Navigate to the config.properties file under src/main/resources and configure your own Data:
+****Running Tests Using TestNG:Navigate to testng.xml file to run.
+*****Check Test_output for reports
+
+
+note :I don't prefer writing comments as the code clean enough
+but little block of code needs comments due to behaviour of the system
+
+
+THANKS
