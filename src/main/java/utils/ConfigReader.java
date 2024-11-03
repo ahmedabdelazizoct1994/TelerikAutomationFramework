@@ -18,9 +18,6 @@ public class ConfigReader {
             System.err.println("Error loading properties file: " + e.getMessage());
         }
     }
-
-
-
     public static String getProperty(String key) {
         return properties.getProperty(key, "Property not found: " + key);
     }

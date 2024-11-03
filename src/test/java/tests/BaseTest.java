@@ -12,7 +12,6 @@ import utils.WebDriverManagerUtil;
 public class BaseTest {
     protected WebDriver driver;
 
-
     @BeforeClass
     public void setUp() {
         ReportManager.initializeReport();
@@ -23,7 +22,8 @@ public class BaseTest {
 
     private void acceptCookiesIfPresent() {
         try {
-            Thread.sleep(7000);
+
+            Thread.sleep(5000);
             By acceptCookiesButton = By.id("onetrust-accept-btn-handler");
             driver.findElement(acceptCookiesButton).click();
         } catch (NoSuchElementException | InterruptedException e) {
